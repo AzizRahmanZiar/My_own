@@ -1,0 +1,321 @@
+:root {
+    --color:
+    #eb2f64
+    #FF3366
+    #BA265D
+    #faf9f9
+    #f4f2f2
+    #f0eeee
+    #ccc
+    #333
+    #777
+    #999
+    #c69963
+    #B28451
+    #101d2c
+    #f9f7f6
+    #aaa
+    #54483A
+    #6D5D4B
+    #eb2f06
+    #fed330
+    #CAD3C8
+    #2f3542
+    #dfe4ea
+    #f1f2f6
+    #EE5A24
+    #FFC312 
+    #e67e22
+    #fdf2e9 
+    #fae5d3 
+    #eb984e 
+    #cf711f 
+    #45260a
+    #888
+    #767676
+    #6f6f6f
+    #555
+    #333
+    #55c57a
+    #7ed56f
+    #28b485
+    #ffb900
+    #ff7730
+    #2998ff
+    #5643fa
+    #f7f7f7
+    #eee
+    #777
+    #999
+    #333
+    #fff
+    #000;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#fff;
+    font-family:sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+.header{
+    height: 100vh;
+    margin: 0 2rem;
+    display: grid;
+    grid-template-rows: 6rem min-content;
+    background-image: url(../img/loginbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.navigation{
+    background-color:#B28451;
+    box-shadow: 0 1rem 2rem #b5aca0;
+}
+.logo{ 
+    margin-top: 3rem;
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+}
+.logo-1{
+    margin-left: 4rem;
+}
+.logo-2{
+    margin-left: 84rem;
+}
+.heading{
+    text-align: center;
+    color: #EE5A24;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.heading-text{
+    margin-bottom: 1rem;
+}
+.search-btn{
+    border-radius: 100px;
+    height: 3.5rem;
+    width: 60rem;
+    outline: none;
+    border: none;
+    background-color: #ddcdcd;
+    padding: 0 1rem;
+    color: #2f3542;
+}
+.container{
+    width: 122rem;
+    display: grid;
+    padding: 0 2rem;
+}
+/* gallery */
+.gallery{
+    margin-top: 3rem;
+    height: 100vh;
+    box-shadow: 1rem 1rem 2rem #f7f7f7;
+}
+.cards{
+    display: grid;
+    margin: 2rem;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+    row-gap: 3rem;
+}
+.card-img{
+    height: 8.5rem;
+    width: 10vw;
+    justify-self: center;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+.card{
+    height: 15rem;
+    padding: 0.5rem;
+    background-color: #7ed56f;
+    border-radius: 0.5rem;
+}
+.info{
+    text-transform: uppercase;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+    color: #555;
+}
+/* gallery */
+
+/* feature */
+.feature{
+    margin-top: 3rem;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 6rem;
+}
+.bat-text{
+    color: #45260a;
+    grid-column: 1/-1;
+    margin-top: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    justify-self: center;
+}
+.batsmans-img{
+    height: 5rem;
+    width: 5vw;
+    justify-self: center;
+    border-radius: 0.5rem;
+}
+.batsmans-card{
+    box-shadow: 0 1rem 2rem lightgrey;
+    margin: 1rem 3rem 3rem 4rem;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.ball-text{
+    color: #45260a;
+    grid-column: 1/-1;
+    margin-top: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    justify-self: center;
+}
+.ballers-img{
+    height: 5rem;
+    width: 5vw;
+    justify-self: center;
+    border-radius: 0.5rem
+}
+.ballers-card{
+    box-shadow: 0 1rem 2rem lightgray;
+    margin: 1rem 4rem 3rem 3rem;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+/* feature */
+
+/* ODI */
+.ODI{
+    margin-top: 3rem;
+    height: min-content;
+    display: grid;
+    grid-template-columns: 30rem 1fr;
+}
+.captan-card{
+    height: 45rem;
+    width: 27rem;
+    padding:1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1rem 2rem lightgray;
+}
+.captan-img{
+    height: 40rem;
+    width: 27rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1rem 2rem lightgray;
+}
+.captan-name{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1.5rem;
+    text-transform: uppercase
+}
+.players{
+    display: grid;
+    border-radius: 0.5rem;
+    padding:2rem;
+    grid-template-rows: min-content 1fr;
+    box-shadow: 0 1rem 2rem lightgray;
+}
+.heading-1{
+    color: #ec7a00;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1rem 0 1rem 0;
+}
+.player-text{
+    color: rgb(93, 80, 72);
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+.player-img{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(2,1fr);
+    column-gap: 1rem;
+} 
+.img{
+    height: 15rem;
+    width: 13vw;
+    border-radius: 0.5rem;
+}
+
+/* T-20 */
+.T-20{
+    margin-top: 5rem;
+    height: min-content;
+    display: grid;
+    grid-template-columns: 1fr 30rem;
+}
+.T-20-captan-card{
+    height: 45rem;
+    width: 27rem;
+    padding:1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1rem 2rem lightgray;
+}
+.T-20-captan-img{
+    height: 40rem;
+    width: 27rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1rem 2rem lightgray;
+}
+.T-20-captan-name{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1.5rem;
+    text-transform: uppercase;
+}
+
+.footer{
+    height: 60vh;
+    background-color: rgb(34, 29, 29);
+    color: aliceblue;
+} 
+.items{
+    margin: 10rem 10rem 0 10rem;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.item{
+    list-style:none; 
+    cursor: pointer;
+}
+.link{
+    text-decoration: none;
+    transition: all 0.3s;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.link:hover{
+    background-color: rgb(208, 201, 192);
+    color: #ec7a00;
+    padding:0.5rem;
+    font-weight: bold;
+    border-radius: 2rem;
+}
+.copyright{
+    text-align: center;
+    margin: 7rem 0 0 10rem;
+}

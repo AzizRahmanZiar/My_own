@@ -1,0 +1,743 @@
+body {
+  font-family: sans-serif;
+}
+/* header */
+.header {
+  background-color: whitesmoke;
+}
+.top-part {
+  padding: 1rem;
+  background-color: rgb(17, 15, 15);
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 16rem;
+  margin-top: -1rem;
+}
+.list {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+.logos {
+  display: flex;
+  gap: 1rem;
+  font-weight: 700;
+  align-items: center;
+  font-size: 1rem;
+  margin-left: auto;
+}
+.X {
+  font-weight: bolder;
+  font-size: 2rem;
+  font-family: "Kenia", sans-serif;
+  color: rgb(111, 161, 111);
+}
+.buttons {
+  display: flex;
+  margin-right: auto;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.sign-in {
+  border: 1px solid gray;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.case-account {
+  border: 1px solid gray;
+  background-color: rgb(17, 15, 15);
+  color: rgb(249, 245, 245);
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.header-card {
+  display: flex;
+  margin: 6rem 8rem;
+}
+@media screen and (max-width: 1200px) {
+  .header-card {
+    margin: 2rem 4rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .header-card {
+    margin: 2rem 1rem;
+  }
+}
+.f-short-p {
+  background-color: rgb(225, 231, 235);
+  display: inline-block;
+  padding: 0.6rem;
+}
+.input {
+  padding: 1rem 14rem 1rem 0.6rem;
+  background-color: rgb(225, 231, 235);
+  border: none;
+  margin: 2rem 0 8rem 0;
+  cursor: pointer;
+}
+.case-account--1 {
+  margin-left: -7.3rem;
+  padding: 0.7rem 1rem;
+  background-color: rgb(17, 15, 15);
+  color: rgb(249, 245, 245);
+  cursor: pointer;
+}
+
+.card-first {
+  border: 2rem solid rgb(165, 165, 202);
+  border-bottom: none;
+  width: 25rem;
+  height: 26rem;
+  margin-left: 4rem;
+  padding: 2rem;
+}
+.costomer-img {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 0.5rem;
+}
+.costomer--info {
+  display: flex;
+  align-items: center;
+}
+.blance {
+  margin-left: auto;
+  height: 2.2rem;
+  width: 9rem;
+  padding-top: 0.6rem;
+  border-radius: 0.7rem;
+  color: rgb(82, 137, 82);
+  font-weight: bold;
+  font-size: 1.4rem;
+  text-align: center;
+  background-color: rgb(217, 230, 217);
+}
+
+.name {
+  margin: -0.3rem 0 0.2rem 0.6rem;
+}
+.trip {
+  margin: -0.07rem 0 0 0.6rem;
+}
+.main-part {
+  margin-top: -1rem;
+  background-color: #fffcfc;
+  /* text-align: justify; */
+}
+.money-card {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.visa-card {
+  height: 10rem;
+  width: 27rem;
+  border-radius: 0.5rem;
+}
+.card-img {
+  padding-top: 1rem;
+  display: flex;
+  gap: 1.5rem;
+}
+.plus-icon-and-text-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(147, 185, 185);
+  width: 6.6rem;
+  margin-right: -2rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.plus-icon {
+  margin-top: 1.1rem;
+  align-self: center;
+  padding: 0.4rem;
+  background-color: rgb(253, 253, 252);
+  border-radius: 50%;
+}
+.opene {
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: -0.01rem;
+}
+.money-in {
+  text-align: center;
+  margin-top: -1.5rem;
+}
+.open-card span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.transactions {
+  display: flex;
+  justify-content: space-between;
+}
+.money-and-transactions {
+  margin-top: -1rem;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+.dialy-month-visa {
+  margin-left: -6.8rem;
+}
+.dialy-visa {
+  display: flex;
+  flex-direction: column;
+}
+.dialy-visa span {
+  color: rgb(137, 130, 130);
+}
+.month-visa {
+  display: flex;
+  flex-direction: column;
+}
+.month-visa span {
+  color: rgb(137, 130, 130);
+}
+.main-transaction {
+  display: flex;
+  flex-direction: column;
+}
+.main-transaction {
+  margin-top: 1rem;
+}
+.main-transaction span {
+  color: rgb(137, 130, 130);
+  text-align: end;
+}
+.up-raw {
+  margin-top: -0.2rem;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  background-color: rgb(192, 200, 200);
+  color: rgb(0, 0, 0);
+  height: 2.5rem;
+  width: 2.5rem;
+  text-align: center;
+  align-self: center;
+  padding-top: 0.1rem;
+}
+.down-raw {
+  font-size: 1.5rem;
+  border-radius: 50%;
+  background-color: rgb(192, 200, 200);
+  color: rgb(0, 0, 0);
+  height: 2.5rem;
+  width: 2.5rem;
+  text-align: center;
+  align-self: center;
+  padding-top: 0.1rem;
+}
+.vector-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.credit {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.fireweath {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.first-logos {
+  display: flex;
+  list-style: none;
+  font-family: "Kenia", sans-serif;
+  justify-content: space-around;
+  padding: 3rem 0;
+}
+.incl {
+  display: flex;
+  align-items: center;
+}
+.logo-list {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.helper {
+  text-align: center;
+  font-size: 3rem;
+}
+.make {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.move-money {
+  text-align: center;
+  margin-top: -1rem;
+  padding-bottom: 3rem;
+}
+.first-section {
+  padding: 1rem 0 6rem 0;
+}
+/* general four cards */
+.four-cards {
+  display: flex;
+  gap: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* general four cards */
+/* first big part of four general cards */
+/* first part */
+.big-card {
+  background-color: rgb(215, 243, 243);
+  height: 30rem;
+  width: 33rem;
+  padding: 1.5rem;
+  margin-left: auto;
+}
+.few {
+  color: rgb(169, 162, 162);
+}
+
+.two-part {
+  display: flex;
+  margin-top: -1.2rem;
+  padding-bottom: 1.6rem;
+}
+
+.second-small-paragragh {
+  margin-right: auto;
+}
+.learn-more {
+  background-color: rgb(255, 255, 255);
+  align-self: center;
+  padding: 0.8rem 1.3rem;
+  text-decoration: none;
+  color: rgb(9, 8, 8);
+}
+.three-part {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  padding: 0 1rem;
+  align-items: center;
+}
+.bv {
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: rgb(185, 185, 234);
+}
+.empty-and-text {
+  margin: -1rem 0 0 -9rem;
+  display: flex;
+  flex-direction: column;
+}
+/* .busy-visa {
+  font-weight: 700;
+} */
+.empty1 {
+  background-color: rgb(211, 204, 204);
+  height: 0.8rem;
+  width: 5rem;
+  border-radius: 2rem;
+  margin-top: -0.4rem;
+}
+.empty-and-number {
+  display: flex;
+  align-items: center;
+}
+.empty2 {
+  background-color: rgb(211, 204, 204);
+  height: 0.8rem;
+  width: 4rem;
+  border-radius: 2rem;
+  margin-right: 1rem;
+}
+.number {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+/* first part */
+/* second part */
+.second-part-of-big-card {
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  background-color: rgb(255, 255, 255);
+}
+.text-and-dots {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+/* .need-to {
+  font-weight: 700;
+} */
+.dots {
+  font-size: 2.5rem;
+}
+.country-and-country {
+  display: flex;
+  justify-content: space-between;
+}
+.first-square-card {
+  background-color: rgb(249, 247, 247);
+  padding: 1rem 2.8rem 0 1.2rem;
+  display: flex;
+  flex-direction: column;
+}
+.flag {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+}
+.money {
+  padding-top: 1.5rem;
+  font-weight: 700;
+}
+.country {
+  margin-top: -0.01rem;
+  font-size: 0.8rem;
+  color: rgb(165, 156, 156);
+}
+.two-vectors {
+  background-color: rgb(249, 247, 247);
+  border-radius: 40%;
+  padding: 1rem 2rem;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+.small-one {
+  font-size: 1.5rem;
+}
+.large-one {
+  font-size: 1.8rem;
+  margin-top: -1.2rem;
+}
+.second-square-card {
+  background-color: rgb(249, 247, 247);
+  padding: 1rem 2.8rem 1rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+}
+.check-and-flag {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.check-mark {
+  margin-right: -2rem;
+  background-color: rgb(44, 104, 44);
+  color: rgb(255, 255, 255);
+  border-radius: 50%;
+  padding: 0.2rem;
+}
+/* second part */
+/* first big part of four general cards */
+
+/* second two cards of four general cards */
+.tow-small-cards {
+  height: 35rem;
+  width: 33rem;
+  display: flex;
+
+  gap: 1.5rem;
+  flex-direction: column;
+  margin-right: auto;
+}
+.first-small-card {
+  background-color: rgb(215, 243, 243);
+  height: 15rem;
+  display: flex;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-right: 3rem;
+  padding: 0 1.5rem;
+}
+.three-text {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+.hel {
+  margin: 6rem 0 0 -5.8rem;
+}
+.hel-2 {
+  margin: 4.1rem 0 0 -6.4rem;
+}
+.including {
+  color: rgb(169, 162, 162);
+}
+.create-and-send {
+  margin: -0.7rem 0 3rem 0;
+}
+.learn {
+  margin-left: -2rem;
+}
+/* .create-and-send {
+  font-size: 1.5rem;
+  font-weight: 700;
+} */
+
+.costomer {
+  height: 15rem;
+  width: 17rem;
+  box-shadow: 0 0 0.2rem rgb(195, 188, 188);
+}
+
+.second-small-card {
+  height: 16.5rem;
+  background-color: rgb(215, 243, 243);
+  display: flex;
+}
+.learn-help {
+  margin-top: 1.5rem;
+}
+.acoma-company {
+  height: 15rem;
+  margin-top: 0.7rem;
+  box-shadow: 0 0 0.2rem rgb(195, 188, 188);
+  background-color: rgb(250, 248, 248);
+}
+.ag-lable-and-text-and-acoma-text {
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+  width: 15.5rem;
+  padding-left: 1.5rem;
+}
+
+.acoma-text {
+  font-size: 1rem;
+  font-weight: bolder;
+}
+.empty3 {
+  background-color: rgb(211, 204, 204);
+  height: 0.8rem;
+  width: 6.5rem;
+  border-radius: 2rem;
+}
+.card-small {
+  background-color: rgb(245, 241, 241);
+  margin: 1.3rem;
+  padding: 0.5rem;
+}
+.me-and-salary {
+  display: flex;
+  justify-content: space-between;
+}
+.salary {
+  align-self: center;
+}
+
+/* second two parts of four general cards */
+
+.simple-bill-and-small-text {
+  display: flex;
+  justify-content: space-between;
+}
+.simple-pay-bill {
+  margin-right: 4rem;
+  width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: start;
+}
+.small-text {
+  font-size: 1rem;
+  width: 30rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+.card-hel {
+  padding: 0;
+  border-top: 1.5rem solid rgb(165, 165, 202);
+  border-bottom: 1.5rem solid rgb(165, 165, 202);
+  background-color: rgb(165, 165, 202);
+  margin-left: auto;
+}
+.inner-card {
+  border-radius: 9px;
+  height: 23rem;
+  padding: 1.5rem;
+  background-color: white;
+}
+.transaction-list {
+  margin-top: -1rem;
+  display: flex;
+  justify-content: center;
+}
+.one-li {
+  list-style: none;
+  background-color: rgb(255, 255, 255);
+  color: rgb(35, 30, 30);
+  border: 3px solid rgb(245, 242, 242);
+  padding: 0.5rem 0.8rem;
+}
+.three-li {
+  background-color: rgb(245, 242, 242);
+  display: flex;
+  gap: 1.8rem;
+  list-style: none;
+  padding: 0.6rem 2rem;
+}
+.recvenue {
+  color: rgb(129, 117, 117);
+  margin-top: -0.1rem;
+}
+.less-number-and-percentage {
+  color: rgb(108, 142, 108);
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin-top: -0.7rem;
+}
+.less-number {
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(16, 13, 13);
+  margin-right: 0.7rem;
+}
+.money-graghs {
+  height: 13rem;
+  width: 22rem;
+  border-radius: 0.3rem;
+  padding-top: 0.5rem;
+}
+.card-and-text {
+  display: flex;
+  gap: 7rem;
+}
+
+.fle {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+.big-help {
+  margin-top: 8rem;
+  margin-bottom: -1rem;
+}
+.small-text-help {
+  margin: 0 6rem 7rem 0;
+  width: 20rem;
+  /* text-align: justify; */
+}
+.mobile-pic {
+  display: flex;
+  gap: 6rem;
+}
+.transaction-list-help {
+  margin: 3rem auto 0 0;
+}
+.social-media {
+  width: 29rem;
+  height: 26rem;
+  margin-top: 9rem;
+  margin-right: auto;
+}
+.black-section {
+  background-color: rgb(0, 0, 0);
+  height: 20rem;
+}
+.level-and-button {
+  display: flex;
+  align-items: center;
+  padding-top: 4rem;
+  gap: 37rem;
+}
+.ready-to-level {
+  color: white;
+  margin-left: auto;
+}
+.buttons {
+  display: flex;
+  gap: 1rem;
+  margin-right: auto;
+
+  cursor: pointer;
+}
+.button-help {
+  margin-left: auto;
+  background-color: #fffcfc;
+  color: rgb(16, 11, 11);
+}
+.sign-in-help {
+  background-color: rgb(16, 11, 11);
+  color: #fffcfc;
+  box-shadow: 0 0 0.1rem white;
+}
+.footer-part {
+  height: 28rem;
+}
+
+.footer-first-part {
+  display: flex;
+  padding: 2rem 8rem 3rem 8rem;
+}
+.footer-first-div {
+  padding-top: 0.8rem;
+}
+.x-help {
+  margin-left: -0.1rem;
+}
+.btn {
+  padding-top: 2rem;
+  margin-left: auto;
+}
+.footer-four-divs {
+  margin-left: auto;
+}
+.flex-list {
+  line-height: 2.6rem;
+  display: flex;
+  list-style: none;
+  text-align: start;
+  flex-direction: column;
+}
+.footer-div {
+  /* margin-left: 4rem; */
+  text-align: center;
+}
+.large-icon {
+  width: 8rem;
+  align-self: center;
+  margin-left: 0rem;
+}
+.small-icon {
+  width: 5rem;
+}
+.icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-top: -0.5rem;
+  margin-right: 0.5rem;
+}
+.circle {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: #fffcfc;
+  cursor: pointer;
+  padding: 0 1rem;
+  border-radius: 2rem;
+}
+.line-and-media {
+  width: 70rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+.media-and-copyright {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
